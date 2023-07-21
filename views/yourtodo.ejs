@@ -4,8 +4,8 @@
     <%= content.category %>
 <% })%>
 <form method="POST" action="/updatetodo">
-    <input name="todoname" value="todoname" style="display:none" readonly="true" />
-    <input name="todopassword" value="todopassword" style="display:none" readonly="true" />
+    <input name="todoname" value="<%=todoname%>" style="display:none" readonly="true" />
+    <input name="todopassword" value="<%=todopassword%>" style="display:none" readonly="true" />
     <input name="newtask" placeholder="New task name" />
     <input name="deadline" placeholder="Deadline" />
     <input name="category" placeholder="Category" />
