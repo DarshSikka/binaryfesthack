@@ -1,3 +1,126 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@100&display=swap");
+* {
+  font-family: Karla;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /*width: 100%;*/
+  padding: 10px 20px;
+  font-family: Karla;
+  font-weight: 700;
+}
+
+nav button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding-bottom: 0%;
+  font-size: 15px;
+}
+
+nav button:hover {
+  color: #00457E;
+}
+
+nav button:active {
+  color: #00457E;
+}
+
+nav h1 {
+  font-size: 25px;
+}
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+  margin: 50px 50px;
+  margin-right: 100px;
+}
+
+.signup img {
+  height: 375px;
+  width: 450px;
+}
+
+.signup-main {
+  width: 30%;
+  text-align: center;
+  background-color: #4FA5D8;
+  height: 350px;
+  padding: 25px;
+}
+
+.signup-main p {
+  font-size: 10px;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+
+.signup-main input {
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-right: 50px;
+  padding: 5px 10px;
+  border: none;
+}
+
+footer {
+  text-align: center;
+}
+
+.signin {
+  display: flex;
+  justify-content: space-between;
+  height: 80%;
+  margin: 50px 50px;
+  margin-right: 100px;
+}
+
+#sgin-btn {
+  background-color: #00457E;
+  color: white;
+  border: none;
+  width: 65%;
+  padding: 5px 10px;
+  margin-left: 12px;
+}
+
+.data-fields {
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.signin img {
+  height: 375px;
+  width: 450px;
+}
+
+.signin-main {
+  width: 30%;
+  text-align: center;
+  background-color: #4FA5D8;
+  height: 350px;
+  padding: 25px;
+}
+
+.signin-main p {
+  font-size: 10px;
+  margin-left: 50px;
+  margin-right: 45px;
+}
+
+.signin-main input {
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-right: 50px;
+  padding: 5px 10px;
+  border: none;
+}
 
 /*# sourceMappingURL=self-code.css.map */

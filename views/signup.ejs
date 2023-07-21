@@ -13,14 +13,14 @@
         </ul>
     </div>
  </nav>
- <div class = "signup" id="signup">
+ <form method="POST" action="/addtodo" class = "signup" id="signup">
     <img src="images/img-1.png" alt="sign_up_img" />
     <div class="signup-main">
         <h1><b>Sign up your Todo List</b></h1>
         <div class="data-fields">
             <ul>
-               <label><input id="name-input" placeholder="Todo list name" /></label> 
-               <label><input id="password-input" type="password" placeholder="Password" /></label>
+               <label><input id="name-input" name="todoname" placeholder="Todo list name" /></label> 
+               <label><input id="password-input" name="todopassword" type="password" placeholder="Password" /></label>
             </ul>
         </div>
         <button id="sgin-btn">Continue</button>
@@ -29,15 +29,15 @@
         </p>
     </div>
     
- </div>
- <div class="signin" id="signin" style="display:none">
+</form>
+ <form method="POST" action="/gettodo"class="signin" id="signin" style="display:none">
     <img src="images/img-2.png" alt="sign_up_img" />
     <div class="signin-main">
         <h1><b>Take control of your <font color="#00457E">TIME</font></b></h1>
         <div class="data-fields">
             <ul>
-               <label><input id="name-input" placeholder="Todo list name" /></label> 
-               <label><input id="password-input" type="password" placeholder="Password" /></label>
+               <label><input id="name-input" placeholder="Todo list name" name="todoname"/></label> 
+               <label><input id="password-input" type="password" placeholder="Password" name="todopassword" /></label>
             </ul>
         </div>
         <button id="sgin-btn">Continue</button>
@@ -45,7 +45,7 @@
             By signing up you agree to TaskSync's Terms of Service and Privacy Policy and agree to receive marketing communications from TaskSync at the email address provided.
         </p>
     </div>
-</div>
+</form>
  <footer>
     <p>
         ©2023-24, All rights reserved

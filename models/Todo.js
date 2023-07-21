@@ -12,9 +12,6 @@ const Todo = sequelize.define(
     todopassword: Sequelize.DataTypes.STRING,
     todoname: Sequelize.DataTypes.STRING,
     contents: JSON.stringify([])
-  },
-  {
-    timestamps: true,
   }
 );
 module.exports = Todo;
