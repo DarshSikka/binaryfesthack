@@ -36,7 +36,8 @@ router.post("/updatetodo", async (req, res)=>{
                 todoid: list.todoid
             }
         })
-        return res.render("yourtodo", list.dataValues)
+        console.log(list.dataValues.contents);
+        return res.render("sameastodo", list.dataValues)
     }
 })
 router.post("/gettodo", async (req, res)=>{
