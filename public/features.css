@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Montserrat:wght@100&display=swap');
+
+* {
+    font-family: Karla;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    /*width: 100%;*/
+    padding: 10px 20px;
+    font-family: Karla;
+    font-weight: 700;
+}
+
+nav button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding-bottom: 0%;
+    font-size: 15px;
+}
+
+nav button:hover {
+    color:#00457E;
+}
+
+nav button:active {
+    color: #00457E;
+}
+
+nav h1 {
+    font-size: 25px;
+}
+
+.key-feat {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.feat-item, .plan-item {
+    width:250px;
+}
+.sub-list-1, .sub-list-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plans {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
