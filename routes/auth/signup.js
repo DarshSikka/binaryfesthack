@@ -10,7 +10,7 @@ router.post("/addtodo", (req, res)=>{
         todoname, todopassword, todoid: id, contents: JSON.stringify([])
     });
     list.save();
-    res.send(id);
+    res.send("you can now access the app in signup");
 })
 router.get("/", (req, res)=>{
     res.render("signup", {});
