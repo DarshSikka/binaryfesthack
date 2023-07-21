@@ -13,9 +13,24 @@
         }
     </style>
 </head>
+
 <body class="mb-4 bg-blue-100">
+    <nav class="navbar">
+        <h1>
+           <b>TaskSync</b>
+        </h1>
+        <div class="btns">
+            <ul>
+                <button><b>Agenda</b></button>
+                <button><b>Features</b></button>
+                <button><b>About us</b></button>
+                <button onclick="toggle(false)" id="sgup"><b>Sign up</b></button>
+                <button onclick="toggle(true)" id="sgin"><b>Sign in</b></button>
+            </ul>
+        </div>
+     </nav>
     <%- body %>
-    
+
 </body>
 </html>
 
