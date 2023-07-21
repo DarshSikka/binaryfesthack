@@ -36,7 +36,7 @@ router.post("/updatetodo", async (req, res)=>{
                 todoid: list.todoid
             }
         })
-        return res.render("yourtodo", list)
+        return res.render("yourtodo", list.dataValues)
     }
 })
 router.post("/gettodo", async (req, res)=>{
@@ -46,7 +46,7 @@ router.post("/gettodo", async (req, res)=>{
         return res.send("bye bye hacker")
     }
     else{
-        return res.render("yourtodo", list)
+        return res.render("yourtodo", list.dataValues)
     }
 })
 module.exports = router;
