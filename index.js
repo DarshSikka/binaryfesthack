@@ -10,6 +10,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 const signup = require("./routes/auth/signup")
 app.use("/", signup);
+app.use("/features", (_, res)=>{
+    res.render("features")
+})
 app.use(ejs);
 app.use(express.static('public')) 
 app.get("/", (req, res)=>{
